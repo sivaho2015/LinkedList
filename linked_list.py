@@ -35,7 +35,3 @@ def app_five(block_list):
     for i in range(4):
       curr_block = next_block(block_list[i])
       block_list.append(curr_block)
-      
-chain = []
-app_five(chain)
-print(chain[1].content)
